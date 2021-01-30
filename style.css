@@ -64,6 +64,7 @@ nav ul li a:hover, a.active{
     float: right;
     width: 80%;
     margin: 50px 0px 0px 80px;
+    display:block;
 }
 .booking-form h3{
     margin: 10px 0px;
@@ -121,4 +122,14 @@ nav ul li a:hover, a.active{
 .amount{
     display: flex;
     justify-content: space-between;
+}
+#message{
+    display: none;
+}
+.alert-box {
+    max-width: 300px;
+    min-height: 300px;
+  }
+.alert-icon {
+padding-bottom: 20px;
 }
